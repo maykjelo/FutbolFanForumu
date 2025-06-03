@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\upcomingmatches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\upcomingmatches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\upcomingmatches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\upcomingmatches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\forumcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\forumcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\forumcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\forumcategories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\forumthreads\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\forumthreads\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\forumthreads\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\forumthreads\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\controllers\\forumthreadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\controllers\\forumthreadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\controllers\\forumcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\controllers\\forumcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\models\\upcomingmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\models\\upcomingmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\models\\forumpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\models\\forumthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\models\\forumcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\models\\forumcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\controllers\\upcomingmatchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\controllers\\upcomingmatchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\data\\migrations\\20250601011219_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\data\\migrations\\20250601011219_initialidentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|c:\\projeler\\futbolfanforumu\\futbolfanforumu\\futbolfanforumu\\data\\migrations\\20250601024450_initialforumschemaafternamingfixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A7262D-F7DE-4931-BE45-E617186F9EE9}|FutbolFanForumu\\FutbolFanForumu.csproj|solutionrelative:futbolfanforumu\\data\\migrations\\20250601024450_initialforumschemaafternamingfixes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\UpcomingMatches\\Create.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\UpcomingMatches\\Create.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\UpcomingMatches\\Create.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\UpcomingMatches\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwDkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T03:38:57.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\ForumCategories\\Create.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumCategories\\Create.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\ForumCategories\\Create.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T03:38:26.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumCategories\\Index.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\ForumCategories\\Index.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumCategories\\Index.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\ForumCategories\\Index.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwEgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T03:38:18.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForumThreadsController.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\ForumThreadsController.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Controllers\\ForumThreadsController.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\ForumThreadsController.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Controllers\\ForumThreadsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:45:44.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumThreads\\Create.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\ForumThreads\\Create.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumThreads\\Create.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\ForumThreads\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:16:20.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\appsettings.json",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\appsettings.json",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\appsettings.json",
+              "RelativeToolTip": "FutbolFanForumu\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T01:09:21.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumThreads\\Index.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\ForumThreads\\Index.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\ForumThreads\\Index.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\ForumThreads\\Index.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwEgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:51:43.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Program.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Program.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Program.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:51:10.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\UpcomingMatches\\Index.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\UpcomingMatches\\Index.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\UpcomingMatches\\Index.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\UpcomingMatches\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAiwFQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T03:40:54.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA2wCoAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:26:31.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FutbolFanForumu\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwFQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-01T02:34:17.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250601024450_InitialForumSchemaAfterNamingFixes.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\Migrations\\20250601024450_InitialForumSchemaAfterNamingFixes.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Data\\Migrations\\20250601024450_InitialForumSchemaAfterNamingFixes.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\Migrations\\20250601024450_InitialForumSchemaAfterNamingFixes.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Data\\Migrations\\20250601024450_InitialForumSchemaAfterNamingFixes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:44:50.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ForumPost.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumPost.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Models\\ForumPost.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumPost.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Models\\ForumPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:25:17.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForumThread.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumThread.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Models\\ForumThread.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumThread.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Models\\ForumThread.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:24:33.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ForumCategoriesController.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\ForumCategoriesController.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Controllers\\ForumCategoriesController.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\ForumCategoriesController.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Controllers\\ForumCategoriesController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAuwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:43:31.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ForumCategory.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumCategory.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Models\\ForumCategory.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\ForumCategory.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Models\\ForumCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:23:16.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpcomingMatch.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\UpcomingMatch.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Models\\UpcomingMatch.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Models\\UpcomingMatch.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Models\\UpcomingMatch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:25:42.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpcomingMatchesController.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\UpcomingMatchesController.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Controllers\\UpcomingMatchesController.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Controllers\\UpcomingMatchesController.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Controllers\\UpcomingMatchesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:44:58.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250601011219_InitialIdentitySetup.cs",
+              "DocumentMoniker": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\Migrations\\20250601011219_InitialIdentitySetup.cs",
+              "RelativeDocumentMoniker": "FutbolFanForumu\\Data\\Migrations\\20250601011219_InitialIdentitySetup.cs",
+              "ToolTip": "C:\\projeler\\FutbolFanForumu\\FutbolFanForumu\\FutbolFanForumu\\Data\\Migrations\\20250601011219_InitialIdentitySetup.cs",
+              "RelativeToolTip": "FutbolFanForumu\\Data\\Migrations\\20250601011219_InitialIdentitySetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T01:12:19.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

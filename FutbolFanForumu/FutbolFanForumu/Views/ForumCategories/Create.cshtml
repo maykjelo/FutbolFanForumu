@@ -1,0 +1,48 @@
+﻿@model FutbolFanForumu.Models.ForumCategory
+
+@{
+    ViewData["Title"] = "Yeni Kategori Oluştur";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Forum Kategorisi</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        @* Biraz daha dar olabilir *@
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="IconClass" class="control-label"></label>
+                <input asp-for="IconClass" class="form-control" placeholder="örn: fas fa-futbol" />
+                <span asp-validation-for="IconClass" class="text-danger"></span>
+                <small class="form-text text-muted">Font Awesome ikon sınıfı (örn: fas fa-comments).</small>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i> Oluştur
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Listeye Dön
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

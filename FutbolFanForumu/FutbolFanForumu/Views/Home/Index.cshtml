@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    var latestThreads = ViewData["LatestThreads"] as List<FutbolFanForumu.Models.LatestThreadViewModel>;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hoş Geldiniz</h1>
+    <p>FutbolFanForumu'na! En son tartışmalara göz atın.</p>
+</div>
+
+@if (latestThreads != null && latestThreads.Any())
+{
+    <div class="mt-5">
+        <h3><i class="fas fa-newspaper"></i> Son Forum Başlıkları</h3>
+        <ul class="list-group">
+            @foreach (var thread in latestThreads)
+            {
+                <li class="list-group-item">
+                    <h5><a asp-controller="ForumThreads" asp-action="Details" asp-route-id="@thread.Id">@thread.Title</a></h5>
+                    <small class="text-muted">
+                        Kategori: @thread.CategoryName | Oluşturan: @thread.AuthorUserName | Tarih: @thread.CreatedDate.ToString("dd.MM.yyyy HH:mm")
+                    </small>
+                </li>
+            }
+        </ul>
+    </div>
+}
+else
+{
+    <p class="text-center mt-5">Henüz hiç forum başlığı oluşturulmamış.</p>
+}

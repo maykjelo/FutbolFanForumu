@@ -1,0 +1,127 @@
+﻿@model FutbolFanForumu.Models.ForumThread
+@using System.Security.Claims; // User.FindFirstValue için
+
+@{
+    ViewData["Title"] = Model.Title;
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Giriş yapmış kullanıcının ID'si
+}
+
+<div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Ana Sayfa</a></li>
+            <li class="breadcrumb-item"><a asp-controller="ForumThreads" asp-action="Index">Forum Başlıkları</a></li>
+            <li class="breadcrumb-item"><a asp-controller="ForumCategories" asp-action="Details" asp-route-id="@Model.ForumCategoryId">@Model.ForumCategory?.Name</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@Model.Title</li>
+        </ol>
+    </nav>
+
+    <h2 class="mt-4">@Html.DisplayFor(model => model.Title)</h2>
+    <p class="text-muted">
+        <small>
+            <strong>Kategori:</strong> <a asp-controller="ForumCategories" asp-action="Details" asp-route-id="@Model.ForumCategoryId">@Model.ForumCategory?.Name</a> |
+            <strong>Oluşturan:</strong> @(Model.User?.UserName ?? "Bilinmiyor") |
+            <strong>Tarih:</strong> @Model.CreatedDate.ToString("dd.MM.yyyy HH:mm") |
+            <strong>Görüntülenme:</strong> @Model.ViewCount
+        </small>
+    </p>
+    <hr />
+    <div class="thread-content mb-4" style="white-space: pre-line; font-size: 1.1em;">
+        @Html.Raw(Model.Content) @* Html.Raw ile HTML içerik render edilebilir, dikkatli kullanılmalı *@
+    </div>
+</div>
+
+@if (User.Identity != null && User.Identity.IsAuthenticated && (currentUserId == Model.UserId || User.IsInRole("Admin")))
+{
+    <div class="mb-3">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-sm btn-outline-primary"><i class="fas fa-edit"></i> Bu Başlığı Düzenle</a>
+    </div>
+}
+
+
+<hr />
+
+@* YORUMLAR BÖLÜMÜ *@
+<div class="mt-4">
+    <h4><i class="fas fa-comments"></i> Yorumlar (@(Model.Posts?.Count ?? 0))</h4>
+    @if (Model.Posts != null && Model.Posts.Any())
+    {
+        foreach (var post in Model.Posts.OrderBy(p => p.PostedDate))
+        {
+            <div class="card mb-3 shadow-sm">
+                <div class="card-body">
+                    <p class="card-text" style="white-space: pre-line;">@post.Content</p>
+                </div>
+                <div class="card-footer text-muted py-2">
+                    <small>
+                        <i class="fas fa-user"></i> @(post.User?.UserName ?? "Bilinmeyen Kullanıcı")   
+                        <i class="fas fa-calendar-alt"></i> @post.PostedDate.ToString("dd.MM.yyyy HH:mm")
+                        @* TODO: Yorumu düzenleme/silme linkleri *@
+                        @if (User.Identity != null && User.Identity.IsAuthenticated && (currentUserId == post.UserId || User.IsInRole("Admin")))
+                        {
+                            @* <a asp-action="EditPost" asp-route-postId="@post.Id" class="btn btn-sm btn-link text-primary float-end ms-2">Düzenle</a>
+                <a asp-action="DeletePost" asp-route-postId="@post.Id" class="btn btn-sm btn-link text-danger float-end">Sil</a> *@
+                        }
+                    </small>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Bu başlığa henüz hiç yorum yapılmamış.</p>
+    }
+</div>
+
+@* YENİ YORUM EKLEME FORMU *@
+@if (User.Identity != null && User.Identity.IsAuthenticated)
+{
+    <hr />
+    <div class="mt-4 card shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-pencil-alt"></i> Yorumunu Paylaş</h5>
+            <form asp-action="AddPost" asp-controller="ForumThreads" method="post" id="addPostForm">
+                <input type="hidden" name="ThreadId" value="@Model.Id" />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group mb-3">
+                    @* <label for="PostContent" class="control-label">Yorumunuz:</label> *@
+                    <textarea name="PostContent" id="PostContent" class="form-control" rows="4" placeholder="Yorumunuzu buraya yazın..." required></textarea>
+                    <span id="postContentValidation" class="text-danger"></span> @* Client-side validasyon için *@
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-paper-plane"></i> Yorumu Gönder
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <hr />
+    <p class="mt-4 alert alert-info">Yorum yapabilmek için <a asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Action("Details", "ForumThreads", new { id = Model.Id })" class="alert-link">giriş yapmanız</a> gerekmektedir.</p>
+}
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-outline-secondary"><i class="fas fa-list"></i> Başlık Listesine Dön</a>
+</div>
+
+@section Scripts {
+    <script>
+        // Basit bir client-side validasyon örneği (isteğe bağlı)
+        // document.getElementById("addPostForm").addEventListener("submit", function(event){
+        //     var content = document.getElementById("PostContent").value;
+        //     var validationSpan = document.getElementById("postContentValidation");
+        //     if (content.trim() === "") {
+        //         validationSpan.textContent = "Yorum içeriği boş olamaz.";
+        //         event.preventDefault(); // Formun gönderilmesini engelle
+        //     } else {
+        //         validationSpan.textContent = "";
+        //     }
+        // });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FutbolFanForumu
+build_property.RootNamespace = FutbolFanForumu
+build_property.ProjectDir = C:\projeler\FutbolFanForumu\FutbolFanForumu\FutbolFanForumu\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\projeler\FutbolFanForumu\FutbolFanForumu\FutbolFanForumu
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1DYXRlZ29yaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumThreads/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1UaHJlYWRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumThreads/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1UaHJlYWRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumThreads/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1UaHJlYWRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumThreads/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1UaHJlYWRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/ForumThreads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1UaHJlYWRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/UpcomingMatches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdNYXRjaGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/UpcomingMatches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdNYXRjaGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/UpcomingMatches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdNYXRjaGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/UpcomingMatches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdNYXRjaGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/UpcomingMatches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBjb21pbmdNYXRjaGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projeler/FutbolFanForumu/FutbolFanForumu/FutbolFanForumu/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4hkqa0rc3k

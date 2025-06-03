@@ -1,0 +1,58 @@
+﻿@model FutbolFanForumu.Models.UpcomingMatch
+
+@{
+    ViewData["Title"] = "Yeni Maç Ekle";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Gelecek Maç Bilgileri</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="HomeTeamName" class="control-label"></label>
+                <input asp-for="HomeTeamName" class="form-control" />
+                <span asp-validation-for="HomeTeamName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="AwayTeamName" class="control-label"></label>
+                <input asp-for="AwayTeamName" class="form-control" />
+                <span asp-validation-for="AwayTeamName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="MatchDateTime" class="control-label"></label>
+                <input asp-for="MatchDateTime" class="form-control" />
+                <span asp-validation-for="MatchDateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="CompetitionName" class="control-label"></label>
+                <input asp-for="CompetitionName" class="form-control" />
+                <span asp-validation-for="CompetitionName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="RelatedForumThreadId" class="control-label"></label>
+                @* Buraya ForumThreads'ten bir dropdown eklenebilir, şimdilik boş bırakıyorum veya manuel ID girilebilir *@
+                @* Eğer dropdown olacaksa Controller'da ViewBag.RelatedForumThreadId doldurulmalı *@
+                <input asp-for="RelatedForumThreadId" class="form-control" />
+                <span asp-validation-for="RelatedForumThreadId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-calendar-check"></i> Ekle
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Listeye Dön
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
